@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+}
+body {}
+header {
+	background: rgb(0,0,0);
+	background: rgba(0,0,0,0.6) 100%);
+	overflow: hidden;
+	padding-top: 5px;
+}
+.container {
+	width: 1100px;
+	margin: 0 auto;
+}
+.logo {
+    width: 35%;
+    float: left;
+}
+.logo img {
+	width: 90%;
+}
+.menu {
+	color: white;
+	float: right;
+}
+.call {}
+.call p {
+	font-style: italic;
+	font-size: 30px;
+	text-align: right;
+	margin-top: 13px;
+}
+.nav {}
+.nav ul {
+	list-style: none;
+	padding-left: 0;
+}
+.nav ul li {
+	float: left;
+	font-size: 20px;
+	padding: 15px 14px;
+}
+.nav ul li:last-child {
+    padding-right: 0px;
+}
+.nav ul li a {
+	text-decoration: navajowhite;
+	color: white;
+}
+.dropdown {}
+.drop-btn {}
+.dropdown-item {
+	background: white;
+	display: none;
+	position: absolute;
+}
+.dropdown-item a {
+	display: block;
+	padding: 5px 10px;
+}
+.dropdown:hover .dropdown-item a {
+	color: red;
+}
+.dropdown:hover .dropdown-item {
+	display: block;
+	margin-top: 10px;
+}
+.dropdown-item a:hover {
+	background: rgb(121, 189, 107);
+}

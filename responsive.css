@@ -1,0 +1,108 @@
+/* Start Tablet 589px-800px responsive */
+@media screen and (max-width: 800px) {
+    .container {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .logo {
+        max-width: 32%;
+        float: left;
+    }
+    .logo img {
+        max-width: 90%;
+        margin-top: 10px;
+    }
+    .menu {
+        max-width: 100%;
+        color: white;
+        float: right;
+    }
+    .call p {
+        font-style: italic;
+        font-size: 25px;
+        text-align: right;
+        margin-top: 13px;
+    }
+    .nav ul li {
+        float: left;
+        font-size: 17px;
+        padding: 14px 5px;
+    }
+}
+/* End Tablet 589px-800px responsive */
+/* Start Smartphonr px-480px responsive */
+@media screen and (max-width: 480px) {
+    header {
+        background: rgb(0,0,0);
+        background: rgba(0,0,0,0.6) 100%);
+        overflow: hidden;
+        padding-top: 5px;
+    }
+    .container {
+        max-width: 98%;
+        margin: 0 auto;
+    }
+    .logo {
+        max-width: 60%;
+        margin: 0 auto;
+        float: none;
+    }
+    .menu {
+        max-width: 100%;
+        color: white;
+        margin: 0 auto;
+        float: none;
+    }
+    .call p {
+        font-style: italic;
+        font-size: 25px;
+        text-align: center;
+        margin: 13px;
+        padding-bottom: 10px;
+    }
+    .nav {
+        display: flex;
+        justify-content: center;
+    }
+    .nav ul {
+        list-style: none;
+        padding-left: 0;
+        margin: -21px 0px 5px;
+    }
+    .nav ul li {
+        font-size: 15px;
+        margin: 0px 5px 5px 4px;
+        padding: 0;
+    }
+    .nav ul li:first-child {
+        padding-left: 0px;
+    }
+    .nav ul li:last-child {
+        padding-right: 0px;
+    }
+    .nav ul li a {
+        text-decoration: navajowhite;
+        color: white;
+    }
+    .dropdown {}
+    .drop-btn {}
+    .dropdown-item {
+        background: white;
+        display: none;
+        position: absolute;
+    }
+    .dropdown-item a {
+        display: block;
+        padding: 5px 10px;
+    }
+    .dropdown:hover .dropdown-item a {
+        color: red;
+    }
+    .dropdown:hover .dropdown-item {
+        display: block;
+        margin-top: 10px;
+    }
+    .dropdown-item a:hover {
+        background: rgb(121, 189, 107);
+    }
+}
